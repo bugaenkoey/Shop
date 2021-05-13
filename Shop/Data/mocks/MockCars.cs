@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Shop.Data.mocks
 {
-    public class MockCars : IallCars
+    public class MockCars : IAllCars
     {
         private readonly ICarsCategory _carsCategory = new MockCategory();
         public IEnumerable<Car> Cars

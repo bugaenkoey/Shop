@@ -1,5 +1,6 @@
-﻿@using Shop.Data.Models;
+﻿@using Shop.Data.Models
 @model IEnumerable<Car>
+
 @{
     Layout = null;
 }
@@ -13,6 +14,7 @@
 </head>
 <body>
     <h2>VSE AVTOMOBILI</h2>
+    <p>Hello, world! The time on the server is @DateTime.Now</p>
     @{
         foreach (var car in Model)
         {
